@@ -1,0 +1,10 @@
+[⚠] Amadeus credentials missing. Set AMADEUS_API_KEY and AMADEUS_API_SECRET
+[⚠] Stripe secret key missing. Set STRIPE_SECRET_KEY
+[⚠] Amadeus not configured. Returning mock data
+[⚠] Amadeus not configured. Returning mock data
+[⚠] Stripe not configured. Cannot create payment intent
+[⚠] Amadeus not configured. Returning mock data
+[⚠] Amadeus not configured. Returning mock data
+[⚠] Amadeus not configured. Returning mock data
+[✗] 404 Not Found: GET /favicon.ico
+[⚠] Amadeus not configured. Returning mock data

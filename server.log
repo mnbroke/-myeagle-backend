@@ -1,0 +1,54 @@
+
+==================================================
+[✓] Server running on http://localhost:3001
+[✓] Environment: development
+[✓] Timestamp: 2025-12-16T16:13:11.434Z
+==================================================
+
+[2025-12-16T16:13:24.148Z] GET /
+[2025-12-16T16:13:31.108Z] GET /api/flights
+  Query: {
+  origin: 'TLV',
+  destination: 'NYC',
+  date: '2025-12-20',
+  passengers: '1'
+}
+[2025-12-16T16:13:37.889Z] GET /api/hotels
+  Query: {
+  cityCode: 'NYC',
+  checkIn: '2025-12-20',
+  checkOut: '2025-12-25',
+  guests: '1'
+}
+[2025-12-16T16:13:51.954Z] POST /api/create-payment
+  Body: { amount: 5000, currency: 'usd', bookingId: 'BOOK123' }
+[2025-12-16T16:15:46.947Z] GET /
+[2025-12-16T16:15:53.158Z] GET /api/flights
+  Query: {
+  origin: 'TLV',
+  destination: 'NYC',
+  date: '2025-12-20',
+  passengers: '1'
+}
+[2025-12-16T16:16:01.978Z] GET /api/hotels
+  Query: {
+  cityCode: 'NYC',
+  checkIn: '2025-12-20',
+  checkOut: '2025-12-25',
+  guests: '1'
+}
+[2025-12-16T16:47:29.120Z] GET /api/flights
+  Query: {
+  origin: 'TLV',
+  destination: 'NYC',
+  date: '2025-12-20',
+  passengers: '1'
+}
+[2025-12-16T16:47:29.190Z] GET /favicon.ico
+[2025-12-16T16:48:28.783Z] GET /api/flights
+  Query: {
+  origin: 'TLV',
+  destination: 'NYC',
+  date: '2025-12-20',
+  passengers: '1'
+}
